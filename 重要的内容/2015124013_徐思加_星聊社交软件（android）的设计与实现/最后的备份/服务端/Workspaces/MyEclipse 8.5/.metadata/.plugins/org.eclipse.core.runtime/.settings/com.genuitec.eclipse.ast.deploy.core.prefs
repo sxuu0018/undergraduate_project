@@ -1,0 +1,13 @@
+#Tue Apr 16 15:09:56 CST 2019
+myeclipseTomcatServer.news.isDeployed=true
+myeclipseTomcatServer.news.IEARProjectName=
+myeclipseTomcatServer.news.altContextRoot=
+myeclipseTomcatServer.news.deploymentPath=C\:\\Users\\xsj\\Workspaces\\MyEclipse 8.5\\.metadata\\.me_tcat\\webapps\\news
+myeclipseTomcatServer.news.contextRoot=/news
+myeclipseTomcatServer.news.shouldBackup=false
+myeclipseTomcatServer.news.isExploded=true
+myeclipseTomcatServer.news.deployIsOverProject=false
+eclipse.preferences.version=1
+myeclipseTomcatServer.news.type=WebDeployment
+myeclipseTomcatServer.news.shouldOverwrite=false
+myeclipseTomcatServer.news.isUptoDate=true

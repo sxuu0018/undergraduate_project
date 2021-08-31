@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="match_parent"
+   		android:layout_height="match_parent"
+    	android:orientation="vertical" >  
+    	
+    <!-- 头部 -->
+		<RelativeLayout
+        android:id="@+id/main_RelativeLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/top_bg"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal" 
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:text="星聊"
+           /> 
+          
+       
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="1dip"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:text="登录" 
+            android:onClick="login_system"
+            />
+
+           
+    	</RelativeLayout>
+    	
+		<include
+        android:id="@+id/spinner_down_nearby"
+        layout="@layout/spinner_down" />
+		
+		
+		<LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:focusable="true" 
+		android:focusableInTouchMode="true"
+	    >
+        
+         
+		 <EditText 
+	    android:id="@+id/search_keyword"
+	    android:layout_width="200dp"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/login_top_layout"
+	    android:textColor="#000"
+	    android:textSize="15sp"
+	    android:layout_marginTop="5dp"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
+	    android:singleLine="true"
+	    android:background="@drawable/login_editbox"
+	    android:hint="请输入标题"/>   
+		    
+   		
+   		
+   		<Button
+   		android:id="@+id/dingcan_search_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="15dp"
+        android:background="#FF9900"
+        android:textColor="#ffffff"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:onClick="search_system"
+        android:text="搜索" />
+         
+         
+          
+     </LinearLayout>  
+    	
+      
+
+	
+	
+     <ListView
+        android:id="@+id/newsListView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#f5f5f5"
+        android:divider="@drawable/cart_listview_gap"
+        android:drawSelectorOnTop="false"
+        android:listSelector="#00000000"
+        android:fadingEdge="none" />	
+   
+    
+
+</LinearLayout>

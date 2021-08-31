@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<cache:CacheIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cache="http://eclipse.org/dltk/cache_model" environment="org.eclipse.dltk.core.environment.localEnvironment">
+  <entries path="C:/Users/xsj/Workspaces/MyEclipse 8.5/news/WebRoot/js/Calendar.js" timestamp="1555398302806" lastAccessTime="1555398314923"/>
+  <entries path="C:/Users/xsj/Workspaces/MyEclipse 8.5/news/WebRoot/js/showdate.js" timestamp="1555398302822" lastAccessTime="1555398315035"/>
+  <entries path="C:/Users/xsj/Workspaces/MyEclipse 8.5/news/WebRoot/resources/scripts/facebox.js" timestamp="1555398303619" lastAccessTime="1555398315837"/>
+  <entries path="C:/Users/xsj/Workspaces/MyEclipse 8.5/news/WebRoot/resources/scripts/jquery-1.3.2.min.js" timestamp="1555398303710" lastAccessTime="1555398315962"/>
+  <entries path="C:/Users/xsj/Workspaces/MyEclipse 8.5/news/WebRoot/resources/scripts/jquery.date.js" timestamp="1555398303719" lastAccessTime="1556528375976"/>
+  <entries path="C:/Users/xsj/Workspaces/MyEclipse 8.5/news/WebRoot/resources/scripts/jquery.datePicker.js" timestamp="1555398303738" lastAccessTime="1556528376194"/>
+  <entries path="C:/Users/xsj/Workspaces/MyEclipse 8.5/news/WebRoot/resources/scripts/jquery.wysiwyg.js" timestamp="1555398303782" lastAccessTime="1555398316281"/>
+  <entries path="C:/Users/xsj/Workspaces/MyEclipse 8.5/news/WebRoot/resources/scripts/simpla.jquery.configuration.js" timestamp="1555398303795" lastAccessTime="1555398316386"/>
+</cache:CacheIndex>

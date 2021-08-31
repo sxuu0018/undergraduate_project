@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="match_parent"
+   		android:layout_height="match_parent"
+    	android:orientation="vertical" >  
+    	
+    <!-- 头部 -->
+		<RelativeLayout
+        android:id="@+id/main_RelativeLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/top_bg"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal" 
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:text="我的收藏"
+           /> 
+          
+       
+       
+
+           
+    	</RelativeLayout>
+    	
+		
+		
+		
+		 
+                
+            
+                
+                
+                
+                
+    	
+      
+
+	
+	
+     <ListView
+        android:id="@+id/shoucangListView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#f5f5f5"
+        android:divider="@drawable/cart_listview_gap"
+        android:drawSelectorOnTop="false"
+        android:listSelector="#00000000"
+        android:fadingEdge="none" />	
+   
+    
+
+</LinearLayout>
